@@ -21,18 +21,18 @@ contexts-sample/
 
 ## コンテキストファイルの構成
 
-各フェーズのコンテキストは `context/{フェーズ名}/` 配下の6ファイルに分割されています。
+各フェーズのコンテキストは `context/{フェーズ名}/{タスク種別}/` 配下の6ファイルに分割されています。
 
 | ファイル | kind | 内容 |
 |---------|------|------|
-| `inout.md` | `inout` | インプット・アウトプット・使用インプットの定義 |
-| `workflow.md` | `workflow` | 成果物を作るステップ |
-| `knowhow.md` | `knowhow` | 失敗パターン・設計判断の背景など暗黙知 |
-| `rules.md` | `rules` | 命名規則・採番ルール・構造規約 |
-| `prohibit.md` | `prohibit` | 禁止パターン |
-| `checklist.md` | `checklist` | フェーズ完了定義（DoD） |
+| `01_artifacts.md` | `artifacts` | インプット・アウトプット・使用インプットの定義 |
+| `02_workflow.md` | `workflow` | 成果物を作るステップ |
+| `03_knowhow.md` | `knowhow` | 失敗パターン・設計判断の背景など暗黙知 |
+| `04_rules.md` | `rules` | 命名規則・採番ルール・構造規約 |
+| `05_forbidden.md` | `forbidden` | 禁止パターン |
+| `06_completion.md` | `completion` | フェーズ完了定義（DoD） |
 
-各ファイルはYAMLフロントマター（`phase` / `kind`）を持ち、GraphRAGの型付きノードとして機能します。
+各ファイルはYAMLフロントマター（`phase` / `kind` / `task_type`）を持ち、GraphRAGの型付きノードとして機能します。
 
 ## 対象フェーズ
 
