@@ -15,7 +15,7 @@ contexts-sample/
 ├── context/          # 各フェーズのコンテキスト定義（AIエージェント向け作業指示）
 ├── templates/        # 各フェーズの成果物テンプレート
 ├── docs/             # 成果物の格納先（初期状態は空）
-├── old_documents/    # 廃版・旧バージョン格納先
+├── old_docs/         # 廃版・旧バージョン格納先
 └── CONTEXT_CONCEPTS.md  # コンテキスト設計のコンセプト説明
 ```
 
