@@ -16,7 +16,7 @@ contexts-sample/
 ├── templates/        # 各フェーズの成果物テンプレート
 ├── docs/             # 成果物の格納先（初期状態は空）
 ├── old/              # 廃版・旧バージョン格納先
-├── skills/           # Claude Code スキル定義
+├── .claude/skills/   # Claude Code スキル定義（/pr など）
 └── concepts.md       # コンテキスト設計のコンセプト説明
 ```
 
