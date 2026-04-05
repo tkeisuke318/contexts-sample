@@ -15,7 +15,7 @@ contexts-sample/
 ├── context/          # 各フェーズのコンテキスト定義（AIエージェント向け作業指示）
 ├── templates/        # 各フェーズの成果物テンプレート
 ├── docs/             # 成果物の格納先（初期状態は空）
-├── old/              # 廃版・旧バージョン格納先
+├── old_documents/    # 廃版・旧バージョン格納先
 ├── .claude/skills/   # Claude Code スキル定義（/pr など）
 └── concepts.md       # コンテキスト設計のコンセプト説明
 ```
