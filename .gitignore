@@ -1,6 +1,9 @@
 # Claude Code local settings
 .claude/
 
+# Secrets
+.env
+
 # OS
 .DS_Store
 Thumbs.db
