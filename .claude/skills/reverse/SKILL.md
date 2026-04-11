@@ -1,6 +1,6 @@
 ---
 name: reverse
-description: 既存の実装から指定フェーズの成果物を逆生成する。引数にフェーズ名を指定する（例: /reverse 02_設計）。
+description: "既存の実装から指定フェーズの成果物を逆生成する。引数にフェーズ名を指定する（例: /reverse 02_設計）。"
 disable-model-invocation: true
 ---
 

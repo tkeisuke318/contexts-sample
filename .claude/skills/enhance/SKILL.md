@@ -1,6 +1,6 @@
 ---
 name: enhance
-description: 指定フェーズの既存成果物を変更・追加・削除する。引数にフェーズ名を指定する（例: /enhance 01_要件定義）。
+description: "指定フェーズの既存成果物を変更・追加・削除する。引数にフェーズ名を指定する（例: /enhance 01_要件定義）。"
 disable-model-invocation: true
 ---
 

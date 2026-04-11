@@ -1,6 +1,6 @@
 ---
 name: newdev
-description: 指定フェーズの成果物を新規作成する。引数にフェーズ名を指定する（例: /newdev 04_単体テスト）。
+description: "指定フェーズの成果物を新規作成する。引数にフェーズ名を指定する（例: /newdev 04_単体テスト）。"
 disable-model-invocation: true
 ---
 
